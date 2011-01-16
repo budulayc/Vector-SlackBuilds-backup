@@ -1,0 +1,36 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+ 
+
+
+
+
+
+      |-----handy-ruler------------------------------------------------------|
+pixman: pixman (pixel-manipulation library for X and cairo)
+pixman: pixman contains low-level pixel manipulation routines and is used by
+pixman: both xorg and cairo.
+pixman: For more information about the X.Org Foundation (the providers of the
+pixman: X.Org implementation of the X Window System), see their website:
+pixman: http://www.x.org
+pixman:
+pixman: License: MIT license, see COPYING
+pixman: Authors: Søren Sandmann Pedersen
+pixman: Website: http://cgit.freedesktop.org/pixman/
+
+
+
+
+#----------------------------------------
+BUILDDATE: Wed Jan 12 00:46:16 CST 2011
+PACKAGER:  budulay
+HOST:      Linux 2.6.36.2 i686
+DISTRO:    Vector Linux 7.0 CORE Alpha 4.5 built on JAN-05-2011
+CFLAGS:    -O2 -march=i586 -mtune=i686 
+LDFLAGS:    
+CONFIGURE:   $ ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --mandir=/usr/man --with-included-gettext --disable-debug --program-prefix= --program-suffix= --build=i486-slackware-linux
+

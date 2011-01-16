@@ -1,0 +1,31 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+wine: wine (Windows API on Linux)
+wine:
+wine: Wine allows you to run windows programs on a linux platform. Have Fun! 
+wine: This is a release candidate build.
+wine: 
+wine:  (note: This is a developement release)
+wine:
+wine: License: GPL
+wine: Authors: Wine Team
+wine: Website: http://www.winehq.org/
+
+
+
+
+#----------------------------------------
+BUILDDATE: Sun Jan  9 21:27:46 CST 2011
+PACKAGER:  budulay
+HOST:      Linux 2.6.36.2 i686
+DISTRO:    Vector Linux 7.0 CORE Alpha 4.5 built on JAN-05-2011
+CFLAGS:    -O2 -march=i586 -mtune=i686 
+LDFLAGS:    
+CONFIGURE:   $ ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --mandir=/usr/man --with-included-gettext --disable-debug --program-prefix= --program-suffix= --build=i486-slackware-linux
+

@@ -1,0 +1,31 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+mpg123: mpg123 (real time MPEG 1.0/2.0/2.5 audio player/decoder)
+mpg123: mpg123 is a real time MPEG 1.0/2.0/2.5 audio player/decoder 
+mpg123: for layers 1,2 and 3 (MPEG 1.0 layer 3 aka MP3 most commonly tested).
+mpg123:  Among others working with Linux, MacOSX, FreeBSD, SunOS4.1.3, 
+mpg123: Solaris 2.5, HPUX 9.x, SGI Irix and Cygwin or plain MS Windows.
+mpg123: It is free software licensed under LGPL 2.1 (the officially released 
+mpg123: sources, some files in subversion repository may differ). 
+mpg123: License: GPL, LGPL
+mpg123: Authors: Michael Hipp,Thomas Orgis,Nicholas J Humfrey, see AUTHORS
+mpg123: Website: http://www.mpg123.de/
+
+
+
+
+#----------------------------------------
+BUILDDATE: Sun Dec 19 20:37:02 CST 2010
+PACKAGER:  budulay
+HOST:      Linux 2.6.35.7-smp i686
+DISTRO:    Vector Linux 7.0 CORE Alpha 4 built on DEC-05-2010
+CFLAGS:    -O2 -march=i586 -mtune=i686 
+LDFLAGS:    
+CONFIGURE:   $ ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --mandir=/usr/man --with-included-gettext --disable-debug --program-prefix= --program-suffix= --build=i486-slackware-linux
+
